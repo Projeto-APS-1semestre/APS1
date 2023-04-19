@@ -18,7 +18,12 @@ h1,h2{
 
 /* Início - Barra de navegação fixa */
 a{
-    color:dodgerblue
+    color:dodgerblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 #menu-topo{
@@ -26,12 +31,12 @@ a{
     top: 0;
     left: 0;
     width: 100%;
-    height: 55px;
+    height: 100px;
     background-color: bisque;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px double gray;
-    margin: 0 auto;
+    align-items: center;
 }
 
 #menu-topo-esquerda{
@@ -40,23 +45,32 @@ a{
 }
 
 #menu-topo-direita{
+    text-align: center;
+    list-style: none;
+    margin-right: 50px;
+}
+
+#menu-topo-direita ul{
     display: flex;
     list-style: none;
-    text-decoration: none;
-    padding-inline-start: 10px
+    padding-inline-start: 10px;
+    font-size: 20px;
+    align-items: center;
 }
 
 #menu-topo-direita li{
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 10px
+    margin-right: 10px;
+    list-style: none;
+    align-items: center;
 }
 
 /* Término - Barra de navegação fixa */
 
 /* Início - Main */
 main{
-    margin-top: 30px;
+    margin-top: 60px;
     
 }
 
