@@ -14,9 +14,7 @@ p{
 h1,h2{
     color: dodgerblue;
 }
-/* Término Tudo */
 
-/* Início - Barra de navegação fixa */
 a{
     color:dodgerblue;
     text-decoration: none;
@@ -25,6 +23,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+/* Término Tudo */
+
+/* Início - Barra de navegação fixa */
 
 #menu-topo{
     position: fixed;
