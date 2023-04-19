@@ -44,15 +44,15 @@ header{
     align-items: center;
 }
 
-.logo i{
-    color: #62b1f1;
+.logo i {
+    color: #5bc2e7;
     font-size: 28px;
     margin-right: 3px;
 }
 
-.logo span{
+.logo span{ /* NETMAX*/
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -70,12 +70,12 @@ header{
 }
 
 .navbar a:hover{
-    color: #62b1f1;
+    color: #5bc2e7;
 }
 
 
 .navbar a:active{
-    color: #62b1f1;
+    color: #5bc2e7;
 }
 
 .main{ 
@@ -100,18 +100,18 @@ header{
 
 
 .user i{
-    color: #62b1f1;
+    color: #5bc2e7;
     font-size: 28px;
     margin-right: 7px;
 }
 
 .main a:hover{
-    color: #62b1f1;
+    color: #5bc2e7;
 }
 
 #menu-icon{
     font-size: 35px;
-    color: #62b1f1;
+    color: #5bc2e7;
     cursor: pointer;
     z-index: 10001;
     display: none;
