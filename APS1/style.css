@@ -389,10 +389,7 @@ header{
 	opacity: 1;
 	transform: translateY(1);
 }
-.gallery-item:not(:hover) .name,
-.gallery-item:not(:hover) .role{ /* Tempo de sumir os valores */
-	transition-delay: 0s;
-}
+
 @media screen and (max-width: 1080px) {
 	.gallery-wrapper {
 		flex-direction: column;
@@ -400,9 +397,36 @@ header{
 	}
 
 	.gallery-item:hover {
-		flex-basis: 100%;
+		flex-basis: 10%;
 	}
+/* responsivo para celular */
+    .descriçao{
+        transform: translateY(-50px);     
+    }
+
+    .gallery-item:not(:hover) /* desfoca o conteudo */ 
+    {
+        opacity: 1;
+    }
+     
+    .name {
+        font-size: 20px;
+        background: linear-gradient(90deg, #c61af1, #ff009b);
+        padding-inline: 5px;
+        transform: translateY(-10px);
+    }
 }
+
+@media screen and (max-width: 2081px) {
+    .name {
+        font-size: 20px;
+    }
+
+
+}
+
+
+
 /* final pacotes promocionais*/
 
 /* inicio Autoatendimento*/
@@ -412,7 +436,7 @@ header{
 .cards{
     display: grid;
     justify-content: center;
-    gap: 4px;
+    gap: 1px;
     align-content: center;
     grid-auto-flow: column;
 }
@@ -421,7 +445,6 @@ header{
     background: #151823;
     padding: 30px;
 }
-
 
 /* Final Autoatendimento*/
 

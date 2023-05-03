@@ -5,8 +5,3 @@ menu.onclick = () => {
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('open');
 }
-
-function clique_botao()
-{
-    alert("É um prezer ter você por dentro da nossas novidades!");
-}
