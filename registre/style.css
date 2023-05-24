@@ -282,6 +282,7 @@ header{
 
 
 .type_space{
+    width: 300px;
     padding-top: 4px;
     border-radius: 15px;
     height: 40px;
@@ -303,7 +304,7 @@ header{
     text-align: center;
 }
 
-@media(max-width: 500px){
+@media(max-width: 550px){
     .login_window{
         max-width: 50%;
     }
@@ -311,6 +312,7 @@ header{
     .div_form{
         max-width: 50%;
     }
+
 }
 
 /* FOOTER */
