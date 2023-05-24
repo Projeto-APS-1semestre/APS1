@@ -5,6 +5,8 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    overflow-y: y;
+    overflow-y: x;
 }
 
 html {
@@ -16,6 +18,8 @@ body {
     font-size: 1.6rem;
     background-color: #ffffff;
     /*overflow: hidden;*/
+    overflow-y: y;
+    overflow-y: x;
 }
 
 i {
