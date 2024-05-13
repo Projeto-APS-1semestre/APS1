@@ -1,3 +1,3 @@
 # NetMax
 
-Acesse o Site: https://projeto-aps-1semestre.github.io/NetMax/
+Acesse o Site: https://projetosaps-codadasinistra.github.io/NetMax/
